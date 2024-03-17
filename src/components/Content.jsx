@@ -9,11 +9,14 @@ const Content = () => {
   return (
     <main className="flex-auto">
       <Navbar />
+      <div className="px-8 pt-2">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/search" element={<Search />} />
         <Route path="/collection" element={<Collection />} />
       </Routes>
+      </div>
+
     </main>
   );
 };
