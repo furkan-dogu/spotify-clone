@@ -1,5 +1,5 @@
 import { Menu } from "@headlessui/react";
-import { Icon } from "Icons";
+import { Icon } from "helpers/Icons";
 import { Link } from "react-router-dom";
 
 const Auth = () => {

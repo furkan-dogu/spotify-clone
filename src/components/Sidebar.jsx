@@ -2,13 +2,13 @@ import React from "react";
 import Logo from "../assets/logo.svg";
 import Menu from "./sidebar/Menu";
 import { Link } from "react-router-dom";
-import { Icon } from "Icons";
+import { Icon } from "helpers/Icons";
 import Playlists from "./sidebar/Playlists";
 import DownloadApp from "./sidebar/DownloadApp";
 
 const Sidebar = () => {
   return (
-    <aside className="w-60 pt-6 flex flex-col bg-black">
+    <aside className="w-60 pt-6 flex flex-shrink-0 flex-col bg-black">
       <Link to={"/"} className="mb-7 px-6">
         <img src={Logo} alt="" />
       </Link>
